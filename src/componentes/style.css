@@ -1,0 +1,330 @@
+
+body
+{
+ background-color: rgb(255, 255, 255);
+
+}
+.App p
+{
+ font-weight: 700;
+ font-size: 150%;
+ padding: auto;
+
+}
+.linha-left
+{
+   margin-top: -60px;
+   width: 10px;
+   padding-left: 13%;
+   padding: auto;
+ 
+}
+.tete
+{
+  background-color: rgb(64, 64, 190);
+ padding: 10;
+
+}
+.cor
+{
+background-color: white;
+color: black;
+margin-top:65px;
+
+}
+p{
+ color: rgb(5, 1, 1);
+
+}
+
+.App-header
+{
+margin-top: -120px;
+padding-left: 10px;
+
+
+}
+.App
+{
+
+  margin-top: 60px;
+  padding-left: 80px;
+  
+}
+.conta-corrente
+{
+  color: rgb(172, 52, 228);
+ 
+}
+.Def
+{
+  margin-top: 10px;
+  
+}
+.dualbank
+{
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: -58px;
+
+}
+.File
+{
+  position: absolute;
+  margin: 0 425px;
+  top: 0;
+  left: auto;
+  cursor: pointer;
+}
+.Saldo
+{
+  position: absolute;
+  margin: 0 510px;
+  top: 0;
+  left: auto;
+
+}
+.conta-corrente
+{
+    position: absolute;
+    margin: 0 176px;
+    top: 0px;
+    left: auto;
+    z-index: 3;
+
+}
+.dropdown
+{
+ 
+  position: fixed;
+  margin: 0;
+  left: auto;
+  cursor: pointer;
+  border: 1px solid;
+  
+}
+
+.cor-conta
+{
+  color: rgb(138, 49, 211);
+  background-color: #f7f7f7;
+}
+.linha
+{
+  background-color: rgb(64 64 190);
+   margin-top: -178px;
+  height: 81px;
+}
+.Search
+{
+  position: absolute;
+  border-radius: 4px;
+  background-color: rgb(206 204 204 / 25%);
+  margin: 0 176px;
+  left: auto;
+  float: right;
+}
+.Avatar
+{
+  left: 0;
+  margin: 0 344px;
+  margin-top: -64px;
+  display: flex;
+
+}
+.R{
+color: rgb(0, 0, 0);
+
+}
+.icone
+{
+  padding: 93px 120px;
+  left: 0px;
+  margin: 0 auto;
+  cursor: pointer;
+
+}
+.data-saldo
+{
+ color: rgb(26, 112, 226);
+
+}
+.saldo-body
+{
+  color: green;
+  font-size: 20px;
+  padding: 0px 31px;
+}
+.principal
+{
+  color: green;
+  font-size: 16px;
+  margin-top: 26px;
+  margin-left: 30px;
+}
+
+
+
+@media (min-width: 600px) {
+  .Search
+  {
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(206 204 204 / 25%);
+    margin: 0 576px;
+    left: auto;
+    top: 0px; 
+  }
+  .appbar
+  {
+    margin-top: 0px;
+  
+  }
+}
+
+@media (min-width: 1850px) {
+  .Search
+  {
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(206 204 204 / 25%);
+    margin: 0 1452px;
+    top: 0px;
+    left: auto;
+    max-width: 100%;
+    
+
+    
+  }
+}
+@media (max-width: 913px) {
+  .Search
+  {
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(206 204 204 / 25%);
+    margin: 0 381px;
+    left: auto;
+    top: 29px;
+  
+    
+  }
+}
+@media (max-width: 700px) {
+  .linha
+  {
+    background-color: rgb(64 64 190);
+     margin-top: -104px;
+    height: 81px;
+    width: auto;
+    left: auto;
+    right: auto;
+  }
+  .conta-corrente {
+    position: absolute;
+    margin: 0px 124px;
+    top: 59px;
+    left: auto;
+    z-index: 3;
+}
+.Search {
+  position: absolute;
+  border-radius: 4px;
+  background-color: rgb(206 204 204 / 25%);
+  margin: 0 133px;
+  left: auto;
+  top: 0px;
+}
+.Saldo {
+  position: absolute;
+  margin: 0px 380px;
+  top: 66px;
+  left: auto;
+}
+.Avatar
+{
+left: 0;
+margin: 0px 263px;
+margin-top: -64px;
+display: flex;
+}
+.letra-alimentação {
+  margin: 0px -17px;
+  display: none;
+}
+.appbar
+{
+  margin-top: 0px;
+
+}
+.principal {
+  color: green;
+  font-size: 0px;
+  margin-top: 26px;
+  margin-left: 15px;
+}
+}
+@media (max-width: 400px) {
+  .linha
+  {
+    background-color: rgb(64 64 190);
+    margin-top: -114px;
+    height: 81px;
+    width: 125%;
+    left: auto;
+    right: auto;
+  }
+  .principal {
+    font-size: 0px;
+    
+}
+.letra-alimentação {
+  margin: 0px 9px;
+  font-size: 0;
+}
+  .conta-corrente {
+    position: absolute;
+    margin: 0px 73px;
+    top: 57px;
+    left: auto;
+    z-index: 3;
+}
+.Search {
+  position: absolute;
+  border-radius: 4px;
+  background-color: rgb(206 204 204 / 25%);
+  margin: 0 133px;
+  left: auto;
+  top: 0px;
+}
+.Saldo {
+  position: absolute;
+  margin: 0px 291px;
+  top: 57px;
+  left: auto;
+}
+.Avatar
+{
+  left: 0;
+  margin: 0px 262px;
+  margin-top: -67px;
+  display: flex;
+}
+.appbar
+{
+  width: 450px;
+
+}
+.tooltip
+{
+  left: 62px;
+    margin: 17px 13px;
+
+}
+.icone {
+  padding: 31px 86px;
+  left: 0px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+}
